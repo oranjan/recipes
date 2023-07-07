@@ -1,11 +1,13 @@
 
 #index-img{
-    width: 750px;
-}
+    height: 368px;
+    width: auto;
 
+}
 
 
 .recipie{
     height: 250px;
+    width: auto;
     border-radius: 5px;
 }
