@@ -1,15 +1,56 @@
 
-h1{
-    font-family: Prata,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-*{ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;}
 
-#index-img{
+*{ font-family:  Prata,Helvetica Neue,Helvetica,Arial,sans-serif ;
+    text-align: center;
+}
+
+img{
+    border-radius: 8px;
+    padding: 20px;
     height: 389px;
     width: auto;  
-    display: block;
-    margin: 0 180px;
+    display: block;   
+     /* img is inline  */
+    margin-left:  auto;
+    margin-right: auto;
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    text-align: center;
+
 }
+
+
+ul,ol,p{
+    display: block;
+    /* padding: 2px;   */
+margin: 0px 200px;
+padding: 10px;
+
+    list-style-type: none;
+    color: gray;
+    font-size: larger;
+    text-align :center
+  
+   }
+
+ul>li>a{
+
+    display: block;
+    /* text-decoration: none; */
+    padding: 3px;
+    margin-left: 180px;
+    margin-right: auto;
+    color: ;
+    font-weight: bold;
+      font-family: Prata,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+li a:hover {
+    background-color: gray;
+
+  }
 
 
 
